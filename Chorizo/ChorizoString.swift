@@ -9,14 +9,22 @@
 import Foundation
 import UIKit
 
+/* Syntax helpers */
+extension String{
+  func and(anotherString: String) -> [String]{
+    return [self, anotherString]
+  }
+}
+
+/* Conversions */
 extension String{
   
   func toArray() -> [String]{
     return [self]
   }
   
-  func and(anotherString: String) -> [String]{
-    return [self, anotherString]
+  func toUrl() -> NSURL{
+    return NSURL(string: self)!
   }
   
 }
