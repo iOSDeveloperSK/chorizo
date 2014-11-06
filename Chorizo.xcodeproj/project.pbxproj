@@ -16,6 +16,7 @@
 		9D4A0BB71A0B445E0053AB10 /* ChorizoArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A0BB61A0B445E0053AB10 /* ChorizoArray.swift */; };
 		9DA6FD671A0B90D900D62143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA6FD661A0B90D900D62143 /* ViewController.swift */; };
 		9DA6FD6B1A0BC1B200D62143 /* ChorizoAsyncSerialTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA6FD6A1A0BC1B200D62143 /* ChorizoAsyncSerialTask.swift */; };
+		9DA6FD6D1A0C10B400D62143 /* ChorizoDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA6FD6C1A0C10B400D62143 /* ChorizoDouble.swift */; };
 		A9D69CD21A0B69260075DB4B /* ChorizoUrlConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D69CD11A0B69260075DB4B /* ChorizoUrlConnection.swift */; };
 		A9D69CD41A0B7F030075DB4B /* ChorizoInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D69CD31A0B7F030075DB4B /* ChorizoInt.swift */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		9D4A0BB81A0B452D0053AB10 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
 		9DA6FD661A0B90D900D62143 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DA6FD6A1A0BC1B200D62143 /* ChorizoAsyncSerialTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChorizoAsyncSerialTask.swift; sourceTree = "<group>"; };
+		9DA6FD6C1A0C10B400D62143 /* ChorizoDouble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChorizoDouble.swift; sourceTree = "<group>"; };
 		A9D69CD11A0B69260075DB4B /* ChorizoUrlConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChorizoUrlConnection.swift; sourceTree = "<group>"; };
 		A9D69CD31A0B7F030075DB4B /* ChorizoInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChorizoInt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 				A9D69CD11A0B69260075DB4B /* ChorizoUrlConnection.swift */,
 				A9D69CD31A0B7F030075DB4B /* ChorizoInt.swift */,
 				9DA6FD6A1A0BC1B200D62143 /* ChorizoAsyncSerialTask.swift */,
+				9DA6FD6C1A0C10B400D62143 /* ChorizoDouble.swift */,
 			);
 			name = "Chorizo Extensions and Classes";
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				9DA6FD6B1A0BC1B200D62143 /* ChorizoAsyncSerialTask.swift in Sources */,
 				A9D69CD21A0B69260075DB4B /* ChorizoUrlConnection.swift in Sources */,
 				9D4A0BB71A0B445E0053AB10 /* ChorizoArray.swift in Sources */,
+				9DA6FD6D1A0C10B400D62143 /* ChorizoDouble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
