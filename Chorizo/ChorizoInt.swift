@@ -9,17 +9,17 @@
 import Foundation
 
 extension Int{
-    
-    func toString() -> String{
-        return "\(self)"
-    }
-    
-    func toArray() -> [Int]{
-        return [self]
-    }
-    
-    func toArray(repeat: Int) -> [Int]{
-        return [Int](count: repeat, repeatedValue: self)
-    }
-    
+  
+  func toString() -> String{
+    return "\(self)"
+  }
+  
+  func toArray() -> [Int]{
+    return [self]
+  }
+  
+  func toArray(repeat: Int) -> [Int]{
+    return [Int](count: repeat, repeatedValue: self)
+  }
+  
 }

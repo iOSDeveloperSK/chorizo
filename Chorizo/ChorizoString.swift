@@ -14,10 +14,21 @@ extension String{
   func and(anotherString: String) -> [String]{
     return [self, anotherString]
   }
+  func and(int: Any) -> [Any]{
+    return [self, int]
+  }
 }
 
 /* Conversions */
 extension String{
+  
+  func toFloat() -> Float{
+    return (self as NSString).floatValue
+  }
+  
+  func toDouble() -> Double{
+    return (self as NSString).doubleValue
+  }
   
   func toArray() -> [String]{
     return [self]
@@ -26,6 +37,47 @@ extension String{
   func toUrl() -> NSURL{
     return NSURL(string: self)!
   }
+  
+  func toUrlRequest() -> NSURLRequest{
+    return NSURLRequest(URL: self.toUrl())
+  }
+  
+  func toUrlRequest() -> NSMutableURLRequest{
+    return NSMutableURLRequest(URL: self.toUrl())
+  }
+  
+}
+
+/* Finding */
+extension String{
+  
+  /* Case sensitive */
+  func isIn(array: Array<Any>) -> Bool{
+    return self.isIn(array, caseSensitive: true)
+  }
+  
+  func isIn(array: Array<Any>, caseSensitive: Bool) -> Bool{
+    
+    for item in array{
+      if let str = item as? String{
+        
+        if caseSensitive{
+          if str == self{
+            return true
+          }
+        } else {
+          if str.caseInsensitiveCompare(self) == .OrderedSame{
+            return true
+          }
+        }
+        
+      }
+    }
+    
+    return false
+    
+  }
+  
   
 }
 
