@@ -81,4 +81,16 @@ extension String{
     return self
   }
   
+  func downloadInto(imageView: UIImageView) -> String{
+    
+    self.download { (image: UIImage?) -> () in
+      imageView.image = image
+    }
+    
+    return self
+  }
+  
 }
+
+
+
