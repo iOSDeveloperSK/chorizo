@@ -20,4 +20,21 @@ extension Array{
     
   }
   
+  func separatedBy(separator: String) -> String{
+    
+    var finalString = ""
+    
+    for obj in self{
+      if let string = obj as? String{
+        finalString += string
+        if let theLast = self.last as? String{
+          finalString += separator
+        }
+      }
+    }
+    
+    return finalString
+    
+  }
+  
 }
