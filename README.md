@@ -24,6 +24,6 @@ for str in array{
   }
 }
 ```
-Now that I've got your attention, let's see this shit in action.
+Interested? Read on.
 
 ---
