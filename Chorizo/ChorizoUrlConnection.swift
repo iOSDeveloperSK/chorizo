@@ -53,8 +53,6 @@ class ChorizoAsyncUrlConnection{
     
     func start() -> Self{
         
-        let request = NSMutableURLRequest(URL: url)
-        
         NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue()) {(response: NSURLResponse!, data: NSData!, error: NSError!) -> Void in
             
             if error != nil{
