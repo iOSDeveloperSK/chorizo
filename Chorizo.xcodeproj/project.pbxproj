@@ -14,6 +14,7 @@
 		9D4A0BAB1A0ACDB20053AB10 /* ChorizoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A0BAA1A0ACDB20053AB10 /* ChorizoTests.swift */; };
 		9D4A0BB51A0ACDFB0053AB10 /* ChorizoString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A0BB41A0ACDFB0053AB10 /* ChorizoString.swift */; };
 		9D4A0BB71A0B445E0053AB10 /* ChorizoArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A0BB61A0B445E0053AB10 /* ChorizoArray.swift */; };
+		A9D69CD21A0B69260075DB4B /* ChorizoUrlConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D69CD11A0B69260075DB4B /* ChorizoUrlConnection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		9D4A0BB41A0ACDFB0053AB10 /* ChorizoString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChorizoString.swift; sourceTree = "<group>"; };
 		9D4A0BB61A0B445E0053AB10 /* ChorizoArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChorizoArray.swift; sourceTree = "<group>"; };
 		9D4A0BB81A0B452D0053AB10 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
+		A9D69CD11A0B69260075DB4B /* ChorizoUrlConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChorizoUrlConnection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				9D4A0BB41A0ACDFB0053AB10 /* ChorizoString.swift */,
 				9D4A0BB61A0B445E0053AB10 /* ChorizoArray.swift */,
+				A9D69CD11A0B69260075DB4B /* ChorizoUrlConnection.swift */,
 			);
 			name = "Chorizo Extensions and Classes";
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			files = (
 				9D4A0B951A0ACDB20053AB10 /* AppDelegate.swift in Sources */,
 				9D4A0BB51A0ACDFB0053AB10 /* ChorizoString.swift in Sources */,
+				A9D69CD21A0B69260075DB4B /* ChorizoUrlConnection.swift in Sources */,
 				9D4A0BB71A0B445E0053AB10 /* ChorizoArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
