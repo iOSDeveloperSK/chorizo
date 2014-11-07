@@ -19,6 +19,7 @@
 		9DA6FD6D1A0C10B400D62143 /* ChorizoDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA6FD6C1A0C10B400D62143 /* ChorizoDouble.swift */; };
 		9DA6FD6F1A0CBD5000D62143 /* ChorizoNSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA6FD6E1A0CBD5000D62143 /* ChorizoNSData.swift */; };
 		9DA6FD711A0CBF7800D62143 /* ChorizoPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA6FD701A0CBF7800D62143 /* ChorizoPlist.swift */; };
+		9DA6FD731A0CD5AE00D62143 /* ChorizoTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA6FD721A0CD5AE00D62143 /* ChorizoTasks.swift */; };
 		A9D69CD21A0B69260075DB4B /* ChorizoUrlConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D69CD11A0B69260075DB4B /* ChorizoUrlConnection.swift */; };
 		A9D69CD41A0B7F030075DB4B /* ChorizoInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D69CD31A0B7F030075DB4B /* ChorizoInt.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		9DA6FD6C1A0C10B400D62143 /* ChorizoDouble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChorizoDouble.swift; sourceTree = "<group>"; };
 		9DA6FD6E1A0CBD5000D62143 /* ChorizoNSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChorizoNSData.swift; sourceTree = "<group>"; };
 		9DA6FD701A0CBF7800D62143 /* ChorizoPlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChorizoPlist.swift; sourceTree = "<group>"; };
+		9DA6FD721A0CD5AE00D62143 /* ChorizoTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChorizoTasks.swift; sourceTree = "<group>"; };
 		A9D69CD11A0B69260075DB4B /* ChorizoUrlConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChorizoUrlConnection.swift; sourceTree = "<group>"; };
 		A9D69CD31A0B7F030075DB4B /* ChorizoInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChorizoInt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +138,7 @@
 				9DA6FD6C1A0C10B400D62143 /* ChorizoDouble.swift */,
 				9DA6FD6E1A0CBD5000D62143 /* ChorizoNSData.swift */,
 				9DA6FD701A0CBF7800D62143 /* ChorizoPlist.swift */,
+				9DA6FD721A0CD5AE00D62143 /* ChorizoTasks.swift */,
 			);
 			name = "Chorizo Extensions and Classes";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				9DA6FD711A0CBF7800D62143 /* ChorizoPlist.swift in Sources */,
 				9DA6FD6D1A0C10B400D62143 /* ChorizoDouble.swift in Sources */,
 				9DA6FD6F1A0CBD5000D62143 /* ChorizoNSData.swift in Sources */,
+				9DA6FD731A0CD5AE00D62143 /* ChorizoTasks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
